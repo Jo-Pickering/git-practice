@@ -14,6 +14,3 @@ There is a secret. Can you find it?
 - [Chloe](https://github.com/ChloeSAPage)
 - [Elyas](https://github.com/BlueElyas)
 - [Helder](https://github.com/HelderBalbino)
-
-
-![A very happy Elyas](image.png)
