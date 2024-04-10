@@ -22,12 +22,12 @@ const quotes = [
 ];
 
 // Selects the button and para element (if it was .button, it would be a class, if it was #button, it would be an ID)
-const button = document.querySelector("button");
-const para = document.querySelector("p");
+const button = document.querySelector(".button");
+const message = document.querySelector(".insert-here");
 
 button.addEventListener("click", () => {
   // Gets random index
   let random = Math.floor(Math.random() * quotes.length - 1);
-  // Adds quote using random index to paragraph
-  para.textContent = quotes[random];
+  // Adds quote using random index to paragraph element titled message
+  message.textContent = quotes[random];
 });
